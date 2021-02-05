@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^([^.]*)/?$ index.php?param=$1 [L]
+PHP_VALUE memory_limit 512M
+<IfModule mod_headers.c>
+	Header set Access-Control-Allow-Origin "*"
+</IfModule>

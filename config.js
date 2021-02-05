@@ -1,0 +1,1 @@
+let domain = "http://pachuling.cafe24.com";
